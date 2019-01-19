@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<style> 
+.buttons {
+  display: flex;
+  font-family: Helvetica;
+  font-weight: 100;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.button {
+  border: 2px solid black;
+  border-radius: 70px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 26px;
+  height: 120px;
+  line-height: 120px;
+  margin: 10px;
+  text-align: center;
+  width: 120px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-left: 30px;
+}
+
+.button:active {
+  background-color: rgb(78, 57, 57);
+  color: #FFFFFF;
+}</style>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href="css/bootstrap-theme.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="fontawesome-free-5.6.3-web/css/all.min.css" rel="stylesheet" type="text/css" />
+<title>Identity Page</title> 
+<style type="text/css">
+</style>
+<link href="navig.css" rel="stylesheet" type="text/css" />
+    
+<script type="text/javascript" src="mainscript.js" language="javascript"></script>
+</head>
+<body>
+  
+<div> <span id="timer" style="height: 90px; width:90px;  background-color: transparent; border-radius: 90%;float: right;font-size: 60px;margin-right:20px ;text-align: center;" >
+    </span></div>
+
+<br>
+    <img src="password.png" style="    display: block;    margin-left: 250px;    margin-right: auto;    width: 30%;" ><br> 
+    <label style=" display:block; text-align: center; font-size: 40px;"> SMS  Şifrenizi Giriniz   </label>
+</div>
+    <div class="mainpage"style="margin-top:10px " >
+        <div class="input-group input-group-lg" style="width: 300px;  margin-left: auto ; margin-right: auto ; ">
+                    <input     id="txtbox" style="font-size: 70px; height:70px; text-align: center  " maxlength="5" type="password"  maxlength="4" class="form-control" aria-describedby="sizing-addon1" >
+                    <span class="input-group-btn">
+                            <button class="btn" style=" text-align: center; outline: none; border: none;height: 70px; " type="button" onclick="cleartextbox()" ><i class="fas fa-backspace" style="color: red "></i></button> 
+                        </span>
+                 </div> <br>
+                 <div>
+                        <span  style=" margin-left: 300px"   >
+                        <input class="checkbox-inline" type="checkbox" onclick="showpassword()" style=" transform: scale(3);"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </span>
+                        <label  style=" font-size: 20px; font-weight: bold;">Show Password</label>
+
+                 </div>
+                  <br>
+        <div class="buttons" style="  margin-top: 40px ;margin-left: auto ; margin-right: auto; ">
+                <div class="button" onclick="write_password('1')">1</div>
+                <div class="button" onclick="write_password('2') ">2</div>
+                <div class="button" onclick="write_password('3')" >3</div>
+                <div class="button"onclick="write_password('4')">4</div>
+                <div class="button"onclick="write_password('5')">5</div>
+                <div class="button"onclick="write_password('6')">6</div>
+                <div class="button"onclick="write_password('7')">7</div>
+                <div class="button"onclick="write_password('8')">8</div>
+                <div class="button"onclick="write_password('9')">9</div>
+                <div class="button" style="background-color: red ;"onclick="go_mainpage()">  Cancel </div>
+                <div class="button"onclick="write_password('0')">0</div>
+                <div class="button" style="background-color: green"onclick="go_lastscreen(document.getElementById('txtbox').value,'lastpage.html');">OK</div>
+              </div>
+              <hr>
+    </div>
+
+  
+     
+<!-- <script>
+function  array_test (x1,x2,x3){
+                        let arr = new Array();
+                      arr = [x1, x2, x3 ];
+                       object.messagearray(arr);
+        
+                     }
+</script> -->
+</body>
+</html>

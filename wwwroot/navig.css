@@ -1,0 +1,195 @@
+	
+body {
+   
+    background-attachment: fixed;
+    background-color:#ffa500;
+    background-size: 100%; 
+     border: red dotted 1px; 
+    width: 768px;
+    height:  1366px;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+.mainpage{
+
+    width: auto;
+    height: 1060px;
+
+}
+
+
+
+.language{
+    background-image: url('We-Accept-BTC.png');
+    background-position: 10px 20px;
+    background-repeat: no-repeat;
+    background-size:230px 100px;
+    background-color: transparent;
+ /* border : blue dotted 1px; */
+  width: auto;
+   height: 130px; 
+
+}
+.language img:active {
+    size: 25px;
+}
+
+.footer{
+    width: auto;
+     height: 166px; 
+     margin: 0;
+     
+}
+
+
+
+
+
+#lngbtn{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:orangered;
+    font-size: 250%;
+    border: none;
+    border-radius: 180px;
+    height: 50px;
+    width: 50px; 
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left:5px;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+#lngbtn:active {
+    
+  font-size: 55px;
+  box-shadow: 0 5px #666;
+  transform: translateY(10px);
+}
+
+
+
+
+#mainbtn{   
+    font-family: 'Times New Roman', Times, serif;
+    background-color:orangered; 
+    text-align: center;
+    font-size: 250%;
+    color:white;
+    height: 200px;
+    width: 500px; 
+    margin-left:auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 90px;
+    padding:50px; 
+    box-shadow: 0 9px #999;
+    outline: none;
+
+}
+ 
+ 
+
+ 
+#mainbtn:active {
+    /* color: black; */
+font-size: 55px;
+  background-color: orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ 
+
+ 
+ 
+  .language a{
+      background-color: transparent;
+      outline: none; 
+       border: none;
+ 
+  }
+
+  .language a:hover{
+    background-color: red;  
+ 
+}
+#txtarea{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    color:white;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    resize: none;
+    outline: none;
+    overflow: auto;
+ 
+    user-select: none
+}
+#txtarea:active{
+    border: none;
+    outline: black;
+    grid-area: span;
+}
+
+ 
+
+
+
+
+#mainbtn_buy{   
+    font-family: 'Times New Roman', Times, serif;
+    background-color:RoyalBlue; 
+    text-align: center;
+    font-size: 55px;
+    
+    color:black;
+    height: 200px;
+    width: 600px; 
+    margin-left:auto;
+    margin-right: auto;
+    border: none;
+    padding:50px; 
+    margin-top: 20px;
+    box-shadow: 0 9px #999;
+    outline: none;
+
+}
+
+#mainbtn_buy:active{
+
+    font-size: 90px;
+  background-color: #ffa600b2;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+
+.btnback {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    outline: none;
+    font-size: 30px;
+    cursor: pointer;
+
+ }
+
+.btnback:active{
+    font-size: 60px;
+    color: red;
+}
+
+
+
+

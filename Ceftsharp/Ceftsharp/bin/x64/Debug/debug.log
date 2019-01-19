@@ -1,0 +1,49 @@
+[0112/195630.584:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(29,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(37,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0112/195658.135:ERROR:broker_win.cc(137)] Error sending sync broker message: The pipe is being closed. (0xE8)
+[0112/195658.139:ERROR:command_buffer_proxy_impl.cc(101)] ContextResult::kFatalFailure: AllocateAndMapSharedMemory failed
+[0119/125629.410:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(29,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(37,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0119/125701.605:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(29,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(37,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0119/125704.010:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(65,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(87,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0119/125713.168:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(46,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(54,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0119/125726.298:ERROR:broker_win.cc(137)] Error sending sync broker message: The pipe is being closed. (0xE8)
+[0119/125726.299:ERROR:broker_win.cc(137)] Error sending sync broker message: The pipe is being closed. (0xE8)
+[0119/125726.300:ERROR:broker_win.cc(137)] Error sending sync broker message: The pipe is being closed. (0xE8)
+[0119/125726.302:ERROR:broker_win.cc(137)] Error sending sync broker message: The pipe is being closed. (0xE8)
+[0119/125726.313:ERROR:broker_win.cc(137)] Error sending sync broker message: The pipe is being closed. (0xE8)
+[0119/125730.189:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(29,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(37,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0119/125735.668:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(46,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(54,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0119/125738.537:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: https://berkarat.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 (2)
+[0119/125739.714:INFO:CONSOLE(1)] "Uncaught (in promise) Error: OneSignal: This web push config can only be used on http://berkarat.com. Your current origin is https://berkarat.com.", source: https://cdn.onesignal.com/sdks/OneSignalSDK.js (1)
+[0119/125753.157:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(29,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(37,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0119/125828.686:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(29,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(37,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0119/125830.676:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(65,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(87,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+

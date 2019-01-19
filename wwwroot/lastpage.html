@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<style> 
+.buttons {
+  display: flex;
+  font-family: Helvetica;
+  font-weight: 100;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.button {
+  border: 2px solid black;
+  border-radius: 70px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 26px;
+  height: 120px;
+  line-height: 120px;
+  margin: 10px;
+  text-align: center;
+  width: 120px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-left: 30px;
+}
+
+.button:active {
+  background-color: rgb(78, 57, 57);
+  color: #FFFFFF;
+}
+
+
+#goback:hover{
+
+background-color: blue;
+font-size: 180% ;
+color: wheat;
+cursor: pointer;
+}
+
+
+
+
+
+
+</style>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href="css/bootstrap-theme.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="fontawesome-free-5.6.3-web/css/all.min.css" rel="stylesheet" type="text/css" />
+<title>LAST Page</title> 
+<style type="text/css">
+
+
+</style>
+<link href="navig.css" rel="stylesheet" type="text/css" />
+    
+<script type="text/javascript" src="mainscript.js" language="javascript"></script>
+</head>
+<body>
+  
+
+
+<br>
+    
+</div>
+    <div class="mainpage"style="margin-top:10px " >
+        <div class="list-group">
+                <label class="list-group-item list-group-item-action"> Your Password </label>
+            <label id="password" class="list-group-item list-group-item-action"> </label>
+            <label id="goback"; class="list-group-item list-group-item-action" style="text-align: center;   border: 1x black dotted;" onclick="go_mainpage()"> GO Mainpage  </label>
+          
+          </div>
+
+                 </div> 
+          
+                  <br>
+
+
+  
+    
+</body>
+<script>
+function writepassword(x){
+    
+    document.getElementById("password").innerText=x;
+
+}
+
+function writewrong(x){
+    
+    document.getElementById("password").innerText=x;
+
+    document.getElementById("password").style.backgroundColor="red";
+    document.getElementById("password").style.fontSize="200%";
+
+}
+
+
+</script>
+</html>
